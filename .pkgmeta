@@ -1,0 +1,14 @@
+package-as: SharedMedia_Kirron
+enable-nolib-creation: no
+
+move-folders:
+    SharedMedia_Kirron/SharedMedia_Kirron: SharedMedia_Kirron
+
+manual-changelog:
+    filename: CHANGELOG.md
+    markup-type: markdown
+
+ignore:
+    - CHANGELOG.md
+    - README.md
+    - .editorconfig
